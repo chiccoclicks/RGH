@@ -85,15 +85,19 @@
                         <a href="price.html" class="nav-item nav-link active">Pricing</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Departments</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="blog.html" class="dropdown-item">Maternity</a>
-                                <a href="detail.html" class="dropdown-item">Wards</a>
-                                <a href="team.html" class="dropdown-item">Theatre</a>
-                                <a href="testimonial.html" class="dropdown-item">O.I | VIAC | One Stop</a>
-                                <a href="appointment.html" class="dropdown-item">Dental</a>
-                                <a href="appointment.html" class="dropdown-item">HIV Services</a>
-                                <a href="search.html" class="dropdown-item">Search</a>
+                            <div class="dropdown-menu m-0" id="departmentList">
+                                <input type="text" id="departmentSearch" placeholder="Search departments..." class="form-control mb-2">
 
+                                <!-- Visible by default -->
+                                <a href="maternity.html" class="dropdown-item department">Maternity</a>
+                                <a href="oi.html" class="dropdown-item department">O.I</a>
+                                <a href="xray.html" class="dropdown-item department">XRay</a>
+
+                                <!-- Hidden initially -->
+                                <a href="oi.html" class="dropdown-item department hidden-department">O.I | VIAC | One Stop</a>
+                                <a href="oi.html" class="dropdown-item department hidden-department">Dental</a>
+                                <a href="oi.html" class="dropdown-item department hidden-department">HIV Services</a>
+                                <a href="oi.html" class="dropdown-item department hidden-department">Pharmacy</a>
                             </div>
                         </div>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
