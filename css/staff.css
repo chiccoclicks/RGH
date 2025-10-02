@@ -124,6 +124,7 @@ h1 {
   z-index: 1000;
 }
 
+
 .nav-btn {
   background-color: #3498db;
   color: white;
@@ -136,4 +137,18 @@ h1 {
 
 .nav-btn:hover {
   background-color: #2980b9;
+}
+
+.top-left-nav {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1001;
+  display: flex;
+  gap: 10px;
+}
+
+.top-left-nav .nav-btn {
+  padding: 8px 16px;
+  font-size: 14px;
 }
