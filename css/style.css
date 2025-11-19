@@ -10,6 +10,26 @@
   color: var(--primary) !important;
 }
 
+.custom-header-width {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.custom-header-width .navbar {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
 .logo-img {
     transition: transform 0.3s ease;
 }
@@ -30,6 +50,28 @@
 
 .hidden-department {
     display: none;
+}
+
+.health-ticker {
+  background-color: #004100;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+}
+
+.hero-header {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.health-ticker {
+  margin-top: 0;
+}
+
+.health-ticker {
+  margin-top: -45px;
 }
 
 
@@ -346,6 +388,63 @@ text-shadow:
     height: 40px;
     background: var(--primary);
 }
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    margin-left: 30px;
+    padding: 30px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark);
+    outline: none;
+    transition: .5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+.custom-header-width {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.custom-header-width .navbar {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+/* Reduce navbar height */
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 60px; /* Adjust as needed */
+}
+
+/* Remove extra spacing from brand/logo */
+.navbar-brand {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Tweak nav links spacing */
+.navbar-nav .nav-link {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
 
 .testimonial-carousel .owl-item img {
     width: 150px;
